@@ -1,0 +1,58 @@
+/* ===== Table ===== */
+.friend-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-family: sans-serif;
+}
+
+.friend-table caption {
+  caption-side: bottom;
+  padding: 8px;
+  color: #555;
+}
+
+.friend-table th,
+.friend-table td {
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.friend-table thead th {
+  background-color: #f0f4f8;
+  font-weight: 600;
+}
+
+.friend-table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* ===== Links as Buttons ===== */
+.app-cmp-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 8px;
+}
+
+.app-cmp-links li {
+  margin: 0;
+}
+
+.btn-link {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #1976d2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.btn-link:hover {
+  background-color: #125aa0;
+}

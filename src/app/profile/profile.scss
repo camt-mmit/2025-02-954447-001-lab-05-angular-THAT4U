@@ -1,0 +1,22 @@
+.btn-link {
+  display: inline-block;
+  padding: 10px 16px;
+  margin: 6px 8px 0 0;
+  background-color: #1976d2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+}
+
+.btn-link:hover {
+  background-color: #125aa0;
+  transform: translateY(-1px);
+}
+
+.btn-link:active {
+  transform: translateY(0);
+}
